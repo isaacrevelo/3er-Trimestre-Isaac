@@ -1,0 +1,35 @@
+h1 {
+    color:darkviolet
+}
+
+/* Comentario en CSS*/
+p {
+    color:orangered;
+    font-size: 20pt;
+}
+
+h3 {
+    color:blue
+}
+
+#pais1 {
+    color:chartreuse;
+    font-size: 17pt;
+}
+
+#pais2 {
+    color:darkgreen
+}
+
+.titulo {
+    font-size: 24pt;
+    text-transform:uppercase;
+}
+
+*.warning {
+    color:aqua
+}
+
+.nombre, .apellido {
+    text-decoration: underline;
+}

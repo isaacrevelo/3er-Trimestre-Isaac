@@ -1,0 +1,52 @@
+/*Estilos colores*/
+
+.colores {
+    color:crimson
+}
+
+.colorhex {
+    color:#736F4E;
+}
+
+.color-rgb {
+    color: rgb(100, 200, 30)
+}
+
+.color-rgba {
+    color: rgba(30, 50, 20, 0.6)
+}
+
+
+/* FONDOS */
+.fondo {
+    background-color: blueviolet;
+    background-image: url("https://fondosmil.com/fondo/117526.jpg");
+    background-position: left bottom;
+}   
+
+.fondo-inter {
+    background-color: blueviolet;
+    background-image: url("imagenes/fondo.jpg");
+    
+}   
+
+/* ANCHOS Y ALTOS */
+.ancho {
+    background-color: aqua;
+    width: 70px;
+}
+
+.alto {
+    background-color: chocolate;
+    height: 100px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(30, 90, 70);
+    border-width: 3px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
