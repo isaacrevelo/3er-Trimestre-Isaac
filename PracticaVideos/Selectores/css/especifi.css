@@ -1,0 +1,23 @@
+#id.h1id {
+    color:darkgreen
+}
+
+.h1id {
+    color:blueviolet
+}
+
+h1 {
+    color:blue !important;
+}
+
+
+p {
+    color:red
+}
+
+/* las id tienen prioridad sobre clases,
+y las clases sobre las etiquetas, y si
+se define en style en el html tiene mas 
+prioridad a todos, y con important se 
+sobrepone a todo segun jerarquia, pero
+evitar en lo posible el uso de important*/

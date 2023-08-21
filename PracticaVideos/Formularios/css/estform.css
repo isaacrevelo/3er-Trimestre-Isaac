@@ -1,0 +1,63 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"] {
+    color: red;
+}
+
+.input-modern {
+    border: none;
+    border-bottom: 1px solid #f0434399;
+    outline: none;
+    padding: 5px;
+    color: #f0434399;
+}
+
+.input-modern::placeholder {
+    color: green;
+}
+
+.input-modern:focus {
+    border-bottom: 1px solid #f1060699;
+}
+
+.input-background {
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: red;
+}
+
+.input-background::placeholder {
+    color: darkblue
+}
+
+
+.input-search {
+    padding-left: 20px;
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    border-radius: 7px;
+    margin: 15px;
+    background-image: url(../img/logoisaac.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+textarea {
+    resize: both;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: beige;
+}
