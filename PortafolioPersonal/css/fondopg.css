@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.videofondo {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 0;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.top {
+    border-radius: 40px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(27, 172, 27);
+    opacity: 0.8;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content:center;
+    align-items:center;
+}
+
+.home {
+    border:none;
+    color:white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.products {
+    border:none;
+    background-color: transparent;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.company {
+    border:none;
+    background-color: transparent;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.blog {
+    border:none;
+    background-color: transparent;
+    justify-content:flex-start;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imagen {
+    border: none;
+    border-radius: 10px;
+    height: 90px;
+    cursor: pointer;
+
+}
+
+span.descrip {
+    align-self: center;
+    display: inline-block;
+    max-width: 45%;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.input-background {
+    background-color: rgb(124, 235, 102);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.input-background:focus{
+    background-color: green;
+    opacity: 1;
+}
+
+.input-background::placeholder {
+    color: white;
+    opacity: 1;
+}

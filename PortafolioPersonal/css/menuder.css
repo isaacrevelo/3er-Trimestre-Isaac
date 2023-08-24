@@ -1,0 +1,92 @@
+.menuderecho {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.git {
+    background-color: rgb(241, 155, 42);
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    float: right;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.git:hover {
+    opacity: 0.5;
+}
+.git picture {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(241, 155, 42);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.git picture img {
+    width: 75%;
+}
+
+
+.git a {
+    color: black;
+    font-weight: 500;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coments {
+    background-color: rgb(241, 155, 42);
+    opacity: 0.8;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    float: right;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.coments:hover {
+    opacity: 0.5;
+}
+.coments picture {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(241, 155, 42);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coments picture img {
+    width: 75%;
+}
+.coments a {
+    color: black;
+    font-weight: 500;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
