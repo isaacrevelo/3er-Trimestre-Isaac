@@ -24,6 +24,7 @@
 }
 
 .personasrelacionadas:hover {
+    background-color: rgb(76, 252, 243);
     opacity: 0.5;
 }
 .personasrelacionadas picture {
@@ -66,6 +67,7 @@
 }
 
 .otrosproyectos:hover {
+    background-color: rgb(76, 252, 243);
     opacity: 0.5;
 }
 .otrosproyectos picture {

@@ -25,6 +25,7 @@
 }
 
 .git:hover {
+    background-color: rgb(76, 252, 243);
     opacity: 0.5;
 }
 .git picture {
@@ -67,6 +68,7 @@
 }
 
 .coments:hover {
+    background-color: rgb(76, 252, 243);
     opacity: 0.5;
 }
 .coments picture {
