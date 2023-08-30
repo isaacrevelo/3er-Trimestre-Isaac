@@ -1,5 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Ysabeau+Office:ital,wght@1,300;1,400&display=swap');
 
 html {
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+body {
+    background-color: rgb(95, 95, 95);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(191, 192, 192);
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+nav {
+    border-radius: 20px;
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:10px;
+    align-items:center;
+    padding: 10px 20px;
+}
+
+section {
+    border-radius: 30px;
+    background-color: rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 100px;
+    align-items:center;
+}
+
+
+footer {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(188, 188, 190);
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
 }
